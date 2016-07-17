@@ -80,6 +80,21 @@
             </span>
           {% endif %}
 
+          
+  
+       <span id="post_author">
+       &nbsp; | &nbsp; 作者&nbsp; <span id="post_author">{{ post.author }}</span>
+       </span>
+
+        <span id="post_tags">
+       &nbsp; | &nbsp; 标签&nbsp; 
+        {% for tag in post.tags %}
+           <span id="post_tags">{{ tag.name }}</span>
+        {% endfor %}
+       
+       </span>
+        
+
           {% if post.comments %}
             {% if (theme.duoshuo and theme.duoshuo.shortname) or theme.duoshuo_shortname %}
               <span class="post-comments-count">
