@@ -32,6 +32,7 @@ menu:
   archives: /archives
   tags: /tags
   about: /about
+  invite: /invite
   #commonweal: /404.html
 
 
@@ -48,7 +49,7 @@ menu_icons:
   categories: th
   tags: tags
   archives: archive
-  commonweal: heartbeat
+  invite: heartbeat
 
 
 
